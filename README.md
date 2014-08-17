@@ -1,5 +1,8 @@
 .vim
 ===================================
 
-Simply clone the repository to ``~/.vim``, and you should be good to go.
+After cloning the repository to ``~/.vim``, symlink the .vimrc file in the
+repository to ``~/.vimrc``:
+
+	$ ln -s ~/.vim/.vimrc ~/.vimrc
 

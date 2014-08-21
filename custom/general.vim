@@ -9,10 +9,13 @@ map <leader>sm :echom "Sarah and Manu forever"<CR>
 " Syntax highlighting
 syntax on
 
+" Use jj for quicker escaping
+:imap jj <Esc>
+
 " Tabs
 " Sets tabs to 4 spaces
 set tabstop=4 shiftwidth=4 softtabstop=4
-" Expands tabs to spaces 
+" Expands tabs to spaces
 set expandtab
 " Insert tabs based on shiftwidth
 set smarttab
@@ -22,6 +25,9 @@ set smarttab
 set shiftround
 " Automatically indent lines
 set autoindent
+
+" Show the ruler
+set ruler
 
 " Searching
 " Incremental search and highlight search
@@ -43,6 +49,11 @@ set undoreload=10000
 map <leader>f :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
 
+" Create a new line after current line without entering insert mode by using
+" enter key.  For a new line before current line use shift + enter.
+nmap <CR> o<Esc>
+nmap <S-Enter> O<Esc>
+
 " Miscellaneous settings
 " Show partial commands
 set showcmd
@@ -56,3 +67,6 @@ set hidden
 set showmatch
 " Backspace works normally
 set backspace=2
+" Highlight trailing whitespace
+:highlight TrailingWhitespace ctermbg=red guibg=red
+:match TrailingWhitespace /\s\+$/

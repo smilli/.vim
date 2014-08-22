@@ -25,6 +25,8 @@ set smarttab
 set shiftround
 " Automatically indent lines
 set autoindent
+" For language specific indentation
+filetype plugin on
 
 " Show the ruler
 set ruler

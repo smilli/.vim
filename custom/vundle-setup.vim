@@ -20,7 +20,7 @@ Plugin 'Lokaltog/vim-easymotion'
 " ctrlp: provides fuzzy file and buffer navigation
 Plugin 'kien/ctrlp.vim'
 
-" vim-json: json highlighting, concealing, indenting
+" vim-json: json highlighting, concealing, warnings
 Plugin 'elzr/vim-json'
 
 " All of your Plugins must be added before the following line

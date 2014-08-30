@@ -23,6 +23,9 @@ Plugin 'kien/ctrlp.vim'
 " vim-json: json highlighting, concealing, warnings
 Plugin 'elzr/vim-json'
 
+" vim-go: a golang plugin
+Plugin 'fatih/vim-go'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

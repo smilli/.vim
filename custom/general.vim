@@ -31,6 +31,10 @@ filetype plugin on
 " Show the ruler
 set ruler
 
+" Wrap at 80 chars
+set wrap
+set textwidth=80
+
 " Searching
 " Incremental search and highlight search
 set incsearch hlsearch

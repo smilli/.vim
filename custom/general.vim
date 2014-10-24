@@ -12,6 +12,9 @@ syntax on
 " Use jj for quicker escaping
 :imap jj <Esc>
 
+" Show line numbers
+:set nu
+
 " Tabs
 " Sets tabs to 4 spaces
 set tabstop=4 shiftwidth=4 softtabstop=4

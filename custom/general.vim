@@ -6,14 +6,16 @@
 let mapleader = ","
 map <leader>sm :echom "Sarah and Manu forever"<CR>
 
+" Show line numbers
+:set nu
+
 " Syntax highlighting
 syntax on
+set background=dark
+colorscheme solarized
 
 " Use jj for quicker escaping
 :imap jj <Esc>
-
-" Show line numbers
-:set nu
 
 " Tabs
 " Sets tabs to 4 spaces
@@ -79,3 +81,6 @@ set backspace=2
 " Highlight trailing whitespace
 :highlight TrailingWhitespace ctermbg=red guibg=red
 :match TrailingWhitespace /\s\+$/
+
+" Automatically copy to clipboard
+set clipboard=unnamed

@@ -11,6 +11,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+" vim-colors-solarized: pretty colors
+Bundle 'altercation/vim-colors-solarized'
+
 " fugitive: a git plugin
 Plugin 'tpope/vim-fugitive'
 

@@ -29,6 +29,9 @@ Plugin 'elzr/vim-json'
 " vim-go: a golang plugin
 Plugin 'fatih/vim-go'
 
+" tmux
+Plugin 'christoomey/vim-tmux-navigator'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

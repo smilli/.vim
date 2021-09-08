@@ -1,0 +1,3 @@
+[submodule "/Users/smitha/.vim/pack/plugins/start/vim-tmux-navigator"]
+	path = /Users/smitha/.vim/pack/plugins/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
